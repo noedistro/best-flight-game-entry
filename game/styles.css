@@ -1,0 +1,32 @@
+/* Page styling for Arang Skylark (game/styles.css).
+   The game canvas is the hero: full-bleed, centred, no editor chrome. */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #14242c;
+  color: #fff7e0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+#stage {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+#game {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 3px solid #ffd166;
+  border-radius: 10px;
+  background: #ffb37a;
+}
+
+#caption {
+  margin: 10px 4px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #cfe3e6;
+}
